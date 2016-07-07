@@ -3,8 +3,8 @@ class MlbScores::Scores
 
   def self.today
     puts <<-HEREDOC
-      Game.1 Home Team - Score: - Away Team - Score:
-      Game.2 Home Team - Score: - Away Team - Score:
+      Game 1 Home Team - Score: - Away Team - Score:
+      Game 2 Home Team - Score: - Away Team - Score:
     HEREDOC
 
     game_1 = self.new
